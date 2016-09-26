@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "db27d362-0cb3-4d8f-802c-d03316c00dbd",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "db27d362-0cb3-4d8f-802c-d03316c00dbd",
+    "group": { "default": "Under Development" },
+    "title": { "default": "SPFX JL WP's" },
+    "description": { "default": "Starter Webpart" },
+    "officeFabricIconFontName": "News",
+    "properties": {
+      "maxitems": "100"
+    }
+  }]
+}

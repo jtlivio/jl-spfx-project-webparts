@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "jlivio-spfx-webparts",
+    "libraryId": "d484d012-be5a-492a-a8ae-fa050085f6c9",
+    "framework": "none"
+  }
+}

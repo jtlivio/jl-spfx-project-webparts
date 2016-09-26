@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "jlivio-spfx-webparts-client-side-solution",
+    "id": "d484d012-be5a-492a-a8ae-fa050085f6c9",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/jlivio-spfx-webparts.spapp"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "jlivio-spfx-webparts",
+  "accessKey": "<!-- ACCESS KEY -->"
+}
