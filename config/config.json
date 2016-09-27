@@ -4,6 +4,11 @@
       "entry": "./lib/webparts/starterWp/StarterWpWebPart.js",
       "manifest": "./src/webparts/starterWp/StarterWpWebPart.manifest.json",
       "outputPath": "./dist/starter-wp.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/propertiesValidators/PropertiesValidatorsWebPart.js",
+      "manifest": "./src/webparts/propertiesValidators/PropertiesValidatorsWebPart.manifest.json",
+      "outputPath": "./dist/properties-validators.bundle.js"
     }
   ],
   "externals": {
@@ -16,6 +21,7 @@
     "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js"
   },
   "localizedResources": {
-    "starterWpStrings": "webparts/starterWp/loc/{locale}.js"
+    "starterWpStrings": "webparts/starterWp/loc/{locale}.js",
+    "propertiesValidatorsStrings": "webparts/propertiesValidators/loc/{locale}.js"
   }
 }

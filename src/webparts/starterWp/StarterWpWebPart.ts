@@ -10,7 +10,7 @@ import * as strings from 'starterWpStrings';
 import { IStarterWpWebPartPropspropertiesStarter } from './IStarterWpWebPartProps';
 
 import { EnvironmentType } from '@microsoft/sp-client-base';
-import MockItemsStarter from './Mocks/MockItemsStarter'
+import MockItemsStarter from './Mocks/MockItemsStarter';
 
 export interface ISPListItem {
   Id: string;
@@ -43,7 +43,7 @@ export default class StarterWpWebPart extends BaseClientSideWebPart<IStarterWpWe
         <div id="spListItemsContainer" /></div>
       </div>`;
 
-      this._renderListAsync()
+      this._renderListAsync();
   }
 
 

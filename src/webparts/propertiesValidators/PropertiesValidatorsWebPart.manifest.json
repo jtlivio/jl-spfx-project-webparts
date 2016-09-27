@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "eb34c669-a4a0-4446-87ea-36e8c0fe1a9e",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "eb34c669-a4a0-4446-87ea-36e8c0fe1a9e",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Properties Validators WP" },
+    "description": { "default": "Properties Validators WP" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "1234567890"
+    }
+  }]
+}
