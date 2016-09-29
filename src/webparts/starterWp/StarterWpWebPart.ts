@@ -38,6 +38,7 @@ export default class StarterWpWebPart extends BaseClientSideWebPart<IStarterWpWe
              that you choose in the propreties. It's non reactive, you have to apply for assuming you value</p>
             <p class="ms-font-l ms-fontColor-white"><strong>Items to fetch:</strong> ${this.properties.maxitems}</p>
             <div class='ms-font-m ms-fontColor-white'><strong>Loaded from</strong> ${this.context.pageContext.web.title}</div>
+             <p>More samples go to Git from <a href="https://github.com/SharePoint/sp-dev-fx-webparts"><strong>Vesa Juvonen</strong></a></p>
           </div>
         </div>
         <div id="spListItemsContainer" /></div>

@@ -25,6 +25,7 @@ export default class PropertiesValidatorsWebPart extends BaseClientSideWebPart<I
              PropertyPaneTextField in order to have 10 characters +. Go to WP Properties (Configure Element)</p>
             <p class="ms-font-l ms-fontColor-white"><strong>Text to validate:</strong> ${this.properties.description}</p>
             <div class='ms-font-m ms-fontColor-white'><strong>Loaded from</strong> ${this.context.pageContext.web.title}</div>
+             <p>More samples go to Git from <a href="https://github.com/SharePoint/sp-dev-fx-webparts"><strong>Vesa Juvonen</strong></a></p>
           </div>
         </div>
         <div id="spListItemsContainer" /></div>

@@ -9,6 +9,11 @@
       "entry": "./lib/webparts/propertiesValidators/PropertiesValidatorsWebPart.js",
       "manifest": "./src/webparts/propertiesValidators/PropertiesValidatorsWebPart.manifest.json",
       "outputPath": "./dist/properties-validators.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/spCrud/SpCrudWebPart.js",
+      "manifest": "./src/webparts/spCrud/SpCrudWebPart.manifest.json",
+      "outputPath": "./dist/sp-crud.bundle.js"
     }
   ],
   "externals": {
@@ -22,6 +27,7 @@
   },
   "localizedResources": {
     "starterWpStrings": "webparts/starterWp/loc/{locale}.js",
-    "propertiesValidatorsStrings": "webparts/propertiesValidators/loc/{locale}.js"
+    "propertiesValidatorsStrings": "webparts/propertiesValidators/loc/{locale}.js",
+    "spCrudStrings": "webparts/spCrud/loc/{locale}.js"
   }
 }

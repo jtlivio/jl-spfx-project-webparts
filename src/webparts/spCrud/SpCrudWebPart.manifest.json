@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "0d64232b-f281-44e2-b9c3-4114286ed401",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "0d64232b-f281-44e2-b9c3-4114286ed401",
+    "group": { "default": "Under Development" },
+    "title": { "default": "SPFx Crud PnP" },
+    "description": { "default": "CRUD Operations SPFx" },
+    "officeFabricIconFontName": "News",
+    "properties": {
+      "key": "",
+      "title": "",
+      "lists": "",
+      "allowcreate": false,
+      "allowupdate": false,
+      "allowdelete": false
+    }
+  }]
+}
