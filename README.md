@@ -10,6 +10,7 @@ mpm install
 gulp build
 gulp serve
 ```
+### History
 * (2016-09-27) Added Consume List Items and Vaalidators
 * (2016-09-29) Added CRUD with PnP JS Framework (No Mocks)
 
