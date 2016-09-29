@@ -1,4 +1,4 @@
-## JL SharePoint SPFx WebParts
+# SharePoint SPFx WebParts
 
 #### Current: DROP 4 MDL2
 
