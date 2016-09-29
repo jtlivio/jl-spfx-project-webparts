@@ -14,6 +14,8 @@ gulp serve
 * (2016-09-27) Added Consume List Items and Vaalidators
 * (2016-09-29) Added CRUD with PnP JS Framework (No Mocks)
 
+### License
+
 MIT License
 
 Copyright (c) 2016 Joao Livio
