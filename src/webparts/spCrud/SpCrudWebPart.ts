@@ -70,7 +70,7 @@ export default class SpCrudWebPart extends BaseClientSideWebPart<ISpCrudWebPartP
           </button>
         </div>
         <div id="spListItemsContainer" />
-         <div class="${styles.container}; "ms-u-slideRightIn10"">
+         <div class="${styles.container}; ms-u-slideRightIn10">
           <div class="ms-Grid-row ms-fontColor-neutralPrimary ${styles.row}">
             <div class="status"></div>
               <ul class="items"><ul>
@@ -299,14 +299,18 @@ export default class SpCrudWebPart extends BaseClientSideWebPart<ISpCrudWebPartP
                 }),
                  PropertyPaneCheckbox('allowcreate', {
                    text: "Allow create items",
-                     isChecked: false,
-                     isEnabled: true
+                    isChecked: false,
+                     isEnabled: false
                 }),
                   PropertyPaneCheckbox('allowupdate', {
-                     text: "Allow update items"
+                     text: "Allow update items",
+                     isChecked: false,
+                     isEnabled: false
                 }),
                   PropertyPaneCheckbox('allowdelete', {
-                     text: "Allow delete items"
+                     text: "Allow delete items",
+                     isChecked: false,
+                     isEnabled: false
                 })
               ]
             }
